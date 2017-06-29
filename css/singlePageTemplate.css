@@ -61,7 +61,7 @@ nav ul li {
 ul li a {
 	color: #404040;
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 20px;
 }
 ul li:hover a {
 	color: #2C9AB7;
@@ -78,11 +78,10 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	width: 100%;
-	height: 1000px;
+	height: 800px;
 	background-image: url(../images/panel_dark2.jpg);
-	background-size: cover;
+	background-size:cover;
 	padding-top: 160px;
-	padding-bottom: 0px;
 	
 }
 .light {
@@ -93,21 +92,21 @@ ul li:hover a {
 	text-align: left;
 	position: absolute;
 	top: 200px;
-	width: 100%;
+	width: 88%;
 	font-weight: lighter;
 	text-transform: full-width;
-	letter-spacing: 2px;
-	font-size: 50px;
-}
-
-p span {
-	background: rgba(0, 0, 0, 0.4);
-	padding-left: 25px;
-	padding-right: 15px;
-	color: #FFFFFF;
-	margin-top: 0px;
-	margin-left: 70px;
-	margin-right: 200px;
+	letter-spacing: 1px;
+	font-size: 45px;
+	height: auto;
+	
+	font-weight: lighter;
+	background-color: rgba(0, 0, 0, 0.4);;
+	
+	color: floralwhite;
+	padding: 10px;
+	margin: auto;
+	border: 1px;
+	text-align: justify;
 }
 
 .image {
@@ -136,11 +135,10 @@ p span {
 
 #button1 {
 	width: 50%;
-	position: absolute;
 	z-index: 9;
-	top: 45%;
-	left: 50%;
-	transform: translate(-50%, 1595%);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
 }
 
 a {
@@ -177,17 +175,16 @@ a:hover {
 }
 .text_column {
 	width: 35%;
-	height: 800px;
 	position: absolute;
 	font-weight: lighter;
-	line-height: 50px;
+	line-height: 45px;
 	background-color: rgba(0, 0, 0, 0.6);;
-	font-size: 35px;
+	font-size: 30px;
 	color: floralwhite;
 	padding: 40px;
 	margin: auto;
 	border: 1px;
-	text-align: justify;
+	text-align: center;
 	top: 18%;
 }
 
@@ -201,7 +198,7 @@ a:hover {
 
 p span2 {
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 
@@ -236,34 +233,45 @@ p span2 {
 
 #button2 {
 	width: 30%;
-	position: absolute;
-	top: 63%;
 	left: 11%;
+	display: inline-block;
+	margin-top: 50px;
 }
 
 #button3 {
 	width: 30%;
-	position: absolute;
-	top: 74%;
 	left: 11%;
+	display: inline-block;
+	margin-top: 50px;
+	
 }
 
 #button4 {
 	width: 30%;
-	position: absolute;
-	top: 63%;
 	right: 11%;
+	float: right;
+	display: inline-block;
+	margin-top: 50px;
 }
 
 #button5 {
 	width: 30%;
-	position: absolute;
-	top: 74%;
 	right: 11%;
+	float: right;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.button_alignment{
+	position: relative;
+	top:55%;
 }
 
 /*Sponsors*/
-
+.sponsor_header {
+	font-size: 35px;
+	
+}
 .sponsor{
 	width: 100%;
 	position: relative;
@@ -271,17 +279,10 @@ p span2 {
 
 .sponsor_info{
 	display: inline-block;
-	vertical-align: middle;
 	justify-content: center;
 }
 
 .sponsor_img{
-	
-}
-
-.sponsor_name{
-	font-size: 30px;
-
 	
 }
 
