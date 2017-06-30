@@ -84,6 +84,8 @@ ul li:hover a {
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+
+
 /* Hero Section */
 .hero {
 	width: 100%;
@@ -151,7 +153,7 @@ ul li:hover a {
 	margin-top: 20px;
 }
 
-a {
+.front_href {
 	color: #545454;
 	text-decoration: none;
 }
@@ -183,6 +185,7 @@ a:hover {
 	margin-top: 0px;
 	position: relative;
 }
+
 .text_column {
 	width: 35%;
 	position: absolute;
@@ -196,6 +199,45 @@ a:hover {
 	border: 1px;
 	text-align: center;
 	top: 18%;
+}
+
+#MABA1 {
+	position: relative;
+	float: left;
+	font-size: 25px;
+	width: 40%;
+	left: 1%;
+	top: 250px;
+}
+
+#MABA2 {
+	position: relative;
+	float: right;
+	font-size: 25px;
+	width: 40%;
+	right: 1%;
+	top: 250px;
+}
+
+#MABA3 {
+	position: relative;
+	font-size: 25px;
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 0px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #204B65;
+}
+
+#aboutMABA {
+	height: 800px;
+}
+
+.MABAlinks{
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 #column1 {
@@ -232,7 +274,10 @@ p span2 {
 	font-size: 20px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	position: relative;
-	
+}
+
+a {
+	text-decoration: none;
 }
 
 .button:hover {
@@ -318,17 +363,7 @@ p span2 {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
-.footer_banner {
-	background-color: #B3B3B3;
-	padding-top: 60px;
-	padding-bottom: 60PX;
-	margin-bottom: 0px;
-	background-image: url(../images/pattern.png);
-	background-repeat: repeat;
-}
-footer {
-	display: inline-block;
-}
+
 .hidden {
 	display: none;
 }
@@ -386,12 +421,35 @@ nav ul li {
 	left: 0%; 
 	right: 0%;
 }
+	
+	#MABA1{
+		font-size: 15px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		float: left;
+	}
+	#MABA2{
+		font-size: 15px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		float: left;
+	}
+	#MABA3{
+		font-size: 15px;
+		margin-top: 0px;
+	}
+
 
 .taglinefront {
-	line-height: 22px;
+	line-height: 17px;
 	font-size: 14px;
-	margin: auto;
-	padding: auto;
+	margin: 0px;
+	padding: 5px;
+	width: 200px;
+	top: 20%;
+	left: 10%;
 }
 	.hero{
 		background-image: url(../images/MABA_logo_notext.png);
@@ -424,6 +482,12 @@ nav ul li {
 		height: 200px;
 	}
 	
+	#aboutMABA {
+		background-image: url("../images/BioAngel-clear-270x250_small.png");
+		background-size: contain;
+		background-repeat:round;
+	}
+	
 	.text_column {
 		line-height: normal;
 		font-size: 15px;
@@ -449,7 +513,9 @@ nav ul li {
 	p span2 {
 		font-size: 17px;
 	}
-	
+	#button1{
+		height: 17px;
+	}
 	#button2{
 		display: none;
 	}
@@ -541,6 +607,7 @@ nav ul li {
 	top:130px;
 	margin: 0px;
 	width: 80%;
+	left: 5%;
 }
 	.hero{
 		height: 20px;
@@ -557,7 +624,7 @@ nav ul li {
 	}
 	
 	.button {
-		font-size: 8px;
+		font-size: 10px;
 		padding: 5px;
 		height: 10px;
 		margin: auto;
@@ -568,6 +635,28 @@ nav ul li {
 		height: 200px;
 	}
 	
+	#aboutMABA {
+		display:flex;
+		background-image: url(../images/networking.jpg);
+		position: relative;
+		display: block;
+}
+	#MABA1 {
+		font-size: 19px;
+		top: 100px;
+		width: 80%;
+	}
+	#MABA2 {
+		font-size: 19px;
+		top: 100px;
+		margin-top: 20px;
+		width: 80%;
+		
+	}
+	
+	#MABA3{
+		font-size: 20px;
+	}
 	.text_column {
 		line-height: normal;
 		font-size: 15px;
@@ -715,6 +804,7 @@ nav ul li {
 		display: block;
 		padding-bottom: 50px;
 	}
+	
 	
 	p span2 {
 		font-size: 30px;
