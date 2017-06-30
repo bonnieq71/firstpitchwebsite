@@ -1,3 +1,11 @@
+<style type="text/css">
+   .mobileShow { display: none;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){ .mobileShow { display: inline;}}
+</style>
+
 @charset "UTF-8";
 /* Body */
 body {
@@ -40,7 +48,8 @@ nav {
 	float: right;
 	width: 70%;
 	text-align: right;
-	margin-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 header nav ul {
 	list-style: none;
@@ -91,7 +100,8 @@ ul li:hover a {
 .taglinefront {
 	text-align: left;
 	position: absolute;
-	top: 200px;
+	left: 50px;
+	top: 230px;
 	width: 88%;
 	font-weight: lighter;
 	text-transform: full-width;
@@ -166,7 +176,7 @@ a:hover {
 /* About Section */
 .about {
 	width: 100%;
-	height: 1300px;
+	height: 1000px;
 	display: inline-block;
 	background-image: url(../images/networking.jpg);
 	background-size: cover;
@@ -235,14 +245,14 @@ p span2 {
 	width: 30%;
 	left: 11%;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 150px;
 }
 
 #button3 {
 	width: 30%;
 	left: 11%;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 10px;
 	
 }
 
@@ -251,7 +261,7 @@ p span2 {
 	right: 11%;
 	float: right;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 150px;
 }
 
 #button5 {
@@ -259,12 +269,12 @@ p span2 {
 	right: 11%;
 	float: right;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 .button_alignment{
 	position: relative;
-	top:55%;
+	top:60%;
 }
 
 /*Sponsors*/
@@ -275,14 +285,18 @@ p span2 {
 .sponsor{
 	width: 100%;
 	position: relative;
+	text-align: center;
+	background-color: rgba(135,198,85,0.20);
 }
 
 .sponsor_info{
 	display: inline-block;
 	justify-content: center;
+	width: 100%;
 }
 
 .sponsor_img{
+	padding-bottom: 10px;
 	
 }
 
@@ -295,8 +309,8 @@ p span2 {
 
 .copyright {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 0px;
 	background-color: #717070;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -319,15 +333,18 @@ footer {
 	display: none;
 }
 
-
+.mobileShow {
+	display: none;
+}
 
 
 
 
 /* Mobile */
 @media (max-width: 320px) {
-.logo {
-	width: 100%;
+.logo_front {
+	width: 30%;
+	height: auto;
 	text-align: center;
 	margin-top: 13px;
 	margin-right: 0px;
@@ -339,12 +356,17 @@ footer {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	width: 100%;
-	float: none;
-	display: none;
+	width: 100%;	
 }
+
 header nav ul {
+	font-size: 1px;
 }
+	ul li a {
+		font-size: 10px;
+		padding: 0px;
+		
+	}
 nav ul li {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -352,192 +374,376 @@ nav ul li {
 	margin-left: 0px;
 	width: 100%;
 	text-align: center;
+	
 }
 .text_column {
 	width: 100%;
-	text-align: justify;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
-.parallax {
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
-}
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 90%;
-	margin-top: 25px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 12px;
-	float: none;
-	text-align: center;
-}
-.banner {
-	background-color: #2D9AB7;
-	background-image: none;
-}
-.tagline {
 	margin-top: 20px;
-	line-height: 22px;
+	padding: 10px;
+	position: relative;
+	float: left;
+	left: 0%; 
+	right: 0%;
 }
+
+.taglinefront {
+	line-height: 22px;
+	font-size: 14px;
+	margin: auto;
+	padding: auto;
+}
+	.hero{
+		background-image: url(../images/MABA_logo_notext.png);
+		background-size: cover;
+		height: 300px;
+		padding-top: 50px;
+		width: 100%;
+	}
+	
 .hero_header {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: auto;
 	line-height: 22px;
 	text-align: center;
+}
+	
+	.text_nocolumn{
+		font-size: 15px;
+		padding-top:50px;
+	}
+	
+	.button {
+		font-size: 8px;
+		padding: 5px;
+		height: 10px;
+		margin: auto;
+	}
+	
+	.about{
+		background-image: none;
+		height: 200px;
+	}
+	
+	.text_column {
+		line-height: normal;
+		font-size: 15px;
+		position: relative;
+		padding: 10px;
+		top: auto;
+		margin: auto;
+		margin-top: 10px;
+		width: 100%;
+	}
+	#column1 {
+		left: 0%;
+	}
+	#column1 {
+		right: 0%;
+	}
+	
+	.aboutMABA{
+		height: auto;
+		display: block;
+	}
+	
+	p span2 {
+		font-size: 17px;
+	}
+	
+	#button2{
+		display: none;
+	}
+	#button3{
+		display: none;
+	}
+	#button4{
+		display: none;
+	}
+	#button5{
+		display: none;
+	}
+	
+	.mobileShow{
+		text-align: center;
+		margin: 5px;
+		display: inline;
+		width: 100%;
+	}
+	
+.sponsor_header{
+		font-size: 20px;
+	}
+.sponsor_img{
+		width: 40%;
+		height: auto;
+	}
+.copyright{
+	font-size: 7px;
+	padding: 2px;
 }
 }
 
 /* Small Tablets */
-@media (min-width: 321px)and (max-width: 767px) {
-.logo {
-	width: 100%;
+@media (min-width: 321px)and (max-width: 900px) {
+.logo_front {
+	width: 20%;
+	height: auto;
 	text-align: center;
-	margin-top: 13px;
+	margin-top: 10px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: #043745;
 }
+	header{
+		height: 110px;
+	}
+	.h
 .container header nav {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	width: 100%;
-	float: none;
-	overflow: auto;
-	display: inline-block;
-	background: #52bad5;
+	width: 100%;	
 }
+
 header nav ul {
-	padding: 0px;
-	float: none;
+	font-size: 1px;
+	display: grid;
 }
+	ul li a {
+		font-size: 15px;
+	}
 nav ul li {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	width: 100%;
-	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	text-align: right;
+	
 }
 .text_column {
 	width: 100%;
-	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
-.parallax {
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
-}
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	float: none;
-	width: 100%;
-	text-align: center;
-}
-.thumbnail {
-	width: 50%;
-}
-.parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
-}
-.parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 30px;
-}
-.banner {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.footer_column {
-	width: 100%;
-}
+	margin-top: 20px;
+	padding: 10px;
+	position: relative;
+	float: left;
+	left: 0%; 
+	right: 0%;
 }
 
-/* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
-	width: 100%;
+.taglinefront {
+	line-height: 20px;
+	font-size: 17px;
+	float: left;
+	padding: auto;
+	top:130px;
+	margin: 0px;
+	width: 80%;
 }
-.thumbnail {
-	width: 50%;
+	.hero{
+		height: 20px;
+		background-color: #FFFFFF;
+		width: 100%;
+		padding-top: 250px;
+		margin: 0px;
+		align-content: center;
+	}
+	
+	.text_nocolumn{
+		font-size: 15px;
+		padding-top:50px;
+	}
+	
+	.button {
+		font-size: 8px;
+		padding: 5px;
+		height: 10px;
+		margin: auto;
+	}
+	
+	.about{
+		background-image: none;
+		height: 200px;
+	}
+	
+	.text_column {
+		line-height: normal;
+		font-size: 15px;
+		position: relative;
+		padding: 10px;
+		top: auto;
+		margin: auto;
+		margin-top: 10px;
+		width: 100%;
+	}
+	#column1 {
+		left: 0%;
+	}
+	#column1 {
+		right: 0%;
+	}
+	
+	.aboutMABA{
+		height: auto;
+		display: block;
+	}
+	
+	p span2 {
+		font-size: 17px;
+	}
+	
+	#button2{
+		display: none;
+	}
+	#button3{
+		display: none;
+	}
+	#button4{
+		display: none;
+	}
+	#button5{
+		display: none;
+	}
+	
+	.mobileShow{
+		text-align: center;
+		margin: 5px;
+		display: inline;
+		width: 100%;
+	}
+	
+	#button6 {
+		width: 40%;
+		margin-bottom: 5px;
+	}
+	
+.sponsor_header{
+		font-size: 20px;
+	}
+.sponsor_img{
+		width: 20%;
+		height: auto;
+	}
+.copyright{
+	font-size: 7px;
+	padding: 2px;
+}}
+
+
+/* Between small tablets and fullscreen */
+@media (min-width: 900px)and (max-width: 1400px) {
+.logo_front {
+	width: 20%;
+	height: auto;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 }
-.text_column {
-	width: 100%;
+	header{
+		height: 150px;
+	}
+	.h
+.container header nav {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	width: 100%;	
 }
-.banner {
+
+	header nav ul {
+	font-size: 1px;
+	display: grid;
+}
+	ul li a {
+		font-size: 20px;
+	}
+nav ul li {
 	margin-top: 0px;
-	padding-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: right;
 }
+
+
+.taglinefront {
+	line-height: 40px;
+	font-size: 30px;
+	left: 30px;
+	top:180px;
 }
+	.hero{
+		height: 250px;
+		background-color: #FFFFFF;
+		width: 100%;
+		padding-top: 250px;
+		margin: 0px;
+		align-content: center;
+	}
+	
+	.text_nocolumn{
+		font-size: 30px;
+		padding-top:50px;
+	}
+	
+	.button {
+		font-size: 20px;
+		padding: 5px;
+		height: 24px;
+		margin: auto;
+	}
+	
+	.about{
+		height: 800px;
+	}
+	
+	.text_column {
+		line-height: 35px;
+		font-size: 25px;
+		padding: 15px;
+		width: 35%;
+	}
+	
+	.aboutMABA{
+		height: auto;
+		display: block;
+		padding-bottom: 50px;
+	}
+	
+	p span2 {
+		font-size: 30px;
+	}
+	
+	#button2{
+		margin-top: 150px;
+		
+	}
+	#button3{
+		margin-top: 5px;
+		height: 50px;
+	}
+	#button4{
+		margin-top: 150px;
+	}
+	#button5{
+		margin-top: 5px;
+	}
+	
+	
+.sponsor_header{
+		font-size: 20px;
+	}
+.sponsor_img{
+		width: 20%;
+		height: auto;
+	}
+.copyright{
+	font-size: 7px;
+	padding: 2px;
+}}
