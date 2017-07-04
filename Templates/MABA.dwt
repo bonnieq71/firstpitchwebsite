@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Light Theme</title>
+<!-- TemplateEndEditable -->
+<link href="../css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="../index.html">
+    <img class="logo_front" src="../images/1st-Pitch-Logo-trans.png" width="370" height="auto" alt=""/>
+    </a>
+    <nav>
+      <ul>
+        <!-- TemplateBeginEditable name="EditRegion4" -->
+          <li><a href="#hero">EVENTS</a></li>
+          <li><a href="#hero">ECOSYSTEM</a></li>
+          <li><a href="#hero">BLOG</a></li>
+          <li><a href="../MABA.html">MABA</a></li>
+          <li> <a href="#contact">CONTACT US</a></li>
+          <li> <a href="#contact">APPLY</a></li>
+        <!-- TemplateEndEditable -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section>
+   <img class="header_banner" src="../images/Manhattan-transparent-1502x400.png" width="1502" height="400" alt=""/>
+<h2 class="hidden">MABA</h2>
+    <p class="info"> <span2><!-- TemplateBeginEditable name="EditRegion1" -->MABA<!-- TemplateEndEditable --></span2> 
+    <br/> 
+    <br/>
+    <!-- TemplateBeginEditable name="EditRegion2" -->Mid Atlantic Bio Angels group (MABA), is an angel investor group focused exclusively on new and emerging life science companies. Membership in MABA is by invitation only, and is extended to active, accredited investors (life science angels) who wish to make investments in life science companies, as well as institutional investors and life science company venture arms wishing to invest alongside the angels. <br/>
+    <br/>
+MABA places no geographical restrictions or requirements for presenting companies, as long as meaningful and effective post-investment monitoring of these companies can be achieved. MABA angels meet monthly (except in the summer) in the New York City area, to hear presentations from companies spanning the entire spectrum of life sciences.<!-- TemplateEndEditable --></p>
+   
+	</section>
+   <section>
+    <!-- TemplateBeginEditable name="EditRegion3" --><p class="text_column" id="MABA3">If you are interested in submitting an application to present to MABA please visit our <a class="MABAlinks" href="http://bioangels.net"> website</a>. If you are an accredited and active life science angel investor, and wish to join our group, please visit our <a class="MABAlinks" href="http://bioangels.net/members.php">Members page</a>.</p><!-- TemplateEndEditable -->
+    
+    <img class="header_banner" src="../images/Manhattan-transparent-1502x400.png" width="1502" height="400" alt=""/>
+  </section>
+  
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2017 - <strong>First Pitch life science</strong> <br/> <br/> Designed by Bonnie Quach</div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
