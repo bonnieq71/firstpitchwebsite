@@ -103,12 +103,12 @@ ul li:hover a {
 	text-align: left;
 	position: absolute;
 	left: 50px;
-	top: 230px;
+	top: 190px;
 	width: 88%;
 	font-weight: lighter;
 	text-transform: full-width;
 	letter-spacing: 1px;
-	font-size: 45px;
+	font-size: 40px;
 	height: auto;
 	
 	font-weight: lighter;
@@ -146,7 +146,7 @@ ul li:hover a {
 }
 
 #button1 {
-	width: 50%;
+	width: 40%;
 	z-index: 9;
 	margin-right: auto;
 	margin-left: auto;
@@ -170,8 +170,8 @@ a:hover {
 	font-weight: lighter;
 	color: #545454;
 	margin: auto;
-	font-size: 40px;
-	padding-top: 200px;
+	font-size: 35px;
+	padding-top: 150px;
 }
 
 
@@ -201,39 +201,30 @@ a:hover {
 	top: 18%;
 }
 
-#MABA1 {
-	position: relative;
-	float: left;
-	font-size: 25px;
-	width: 40%;
-	left: 1%;
-	top: 250px;
+.header_banner{
+	width: 100%;
+	height: auto;
+	padding-top: 150px;
 }
 
-#MABA2 {
-	position: relative;
-	float: right;
+.info{
 	font-size: 25px;
-	width: 40%;
-	right: 1%;
-	top: 250px;
+	padding: 10%;
+	letter-spacing: 1px;
+	line-height: 35px;
 }
 
 #MABA3 {
 	position: relative;
 	font-size: 25px;
-	width: 100%;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	width: 85%;
+	margin-bottom: 50px;
 	padding: 0px;
 	text-align: center;
 	font-size: 30px;
 	background-color: #204B65;
 }
 
-#aboutMABA {
-	height: 800px;
-}
 
 .MABAlinks{
 	color: #FFFFFF;
@@ -637,23 +628,11 @@ nav ul li {
 	
 	#aboutMABA {
 		display:flex;
-		background-image: url(../images/networking.jpg);
+		background-image: url(../images/Manhattan-transparent-1502x400.png);
 		position: relative;
 		display: block;
 }
-	#MABA1 {
-		font-size: 19px;
-		top: 100px;
-		width: 80%;
-	}
-	#MABA2 {
-		font-size: 19px;
-		top: 100px;
-		margin-top: 20px;
-		width: 80%;
 		
-	}
-	
 	#MABA3{
 		font-size: 20px;
 	}
