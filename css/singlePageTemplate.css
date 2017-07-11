@@ -75,6 +75,60 @@ ul li a {
 ul li:hover a {
 	color: #2C9AB7;
 }
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline;
+}  
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
@@ -209,9 +263,12 @@ a:hover {
 
 .info{
 	font-size: 25px;
-	padding: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 	letter-spacing: 1px;
 	line-height: 35px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 #MABA3 {
@@ -316,7 +373,7 @@ a {
 /*Sponsors*/
 .sponsor_header {
 	font-size: 35px;
-	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 .sponsor{
 	width: 100%;
@@ -364,6 +421,29 @@ a {
 }
 
 
+.ecosystem {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p1 {
+	font-size: 18px;
+	font-style: normal;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	padding: 50px;
+	text-align: justify;
+}
+
+#eco_logo {
+	vertical-align: middle;
+}
+
 
 
 /* Mobile */
@@ -402,6 +482,8 @@ nav ul li {
 	text-align: center;
 	
 }
+	
+
 .text_column {
 	width: 100%;
 	text-align: center;
