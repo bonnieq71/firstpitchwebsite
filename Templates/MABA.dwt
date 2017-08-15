@@ -29,11 +29,11 @@
     </a>
     <nav>
       <ul>
-          <li><a href="#hero">EVENTS</a></li>
+          <li><a href="../events.html">EVENTS</a></li>
                   <div class="dropdown">
-  			<li><a href="#hero">ECOSYSTEM</a></li>
+  			<li><a href="../ecosystem_join.html">ECOSYSTEM</a></li>
 			  <div class="dropdown-content">
-				<a href="#">Join the Ecosystem</a>
+				<a href="../ecosystem_join.html">Join the Ecosystem</a>
 				<a href="../ecosystem_1stpitch.html">1st Pitch Ecosystem</a>
 				<a href="../ecosystem_lawfirms.html">Law Firms</a>
 				<a href="../ecosystem_consulting.html">Consulting Services</a>
@@ -44,8 +44,8 @@
 			</div>
           <li><a href="#hero">BLOG</a></li>
           <li><a href="../MABA.html">MABA</a></li>
-          <li> <a href="#contact">CONTACT US</a></li>
-          <li> <a href="#contact">APPLY</a></li>
+        <li> <a href="../contact_us.html">CONTACT US</a></li>
+        <li> <a href="../apply.html">APPLY</a></li>
       </ul>
     </nav>
   </header>
